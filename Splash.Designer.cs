@@ -29,25 +29,11 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Splash));
-            this.label1 = new System.Windows.Forms.Label();
             this.TXT_version = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.OliveDrab;
-            this.label1.Location = new System.Drawing.Point(447, 132);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Tag = "custom";
-            this.label1.Text = "by Michael Oborne";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // TXT_version
             // 
@@ -70,9 +56,22 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Visible = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.OliveDrab;
+            this.label1.Location = new System.Drawing.Point(231, 132);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(353, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Tag = "custom";
+            this.label1.Text = "Mission Planner readaptation by Allan Lam and Arfaa Mumtaz";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
             // Splash
             // 
-
             this.BackgroundImage = global::MissionPlanner.Properties.Resources.splashdark;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(584, 336);
@@ -97,9 +96,8 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label TXT_version;
         public System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
     }
 }
